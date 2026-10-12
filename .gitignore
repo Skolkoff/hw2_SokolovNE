@@ -10,7 +10,9 @@ db_meta.json
 .venv/
 dist/
 __pycache__/
+*.py[cod]
 *.egg-info/
-db_meta.json
-data/
 .ruff_cache/
+.DS_Store
+data/
+db_meta.json
