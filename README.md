@@ -37,6 +37,7 @@ delete from users where ID = 1
 условие `where`. Сортировка задаётся необязательной частью `order by <столбец>`;
 по умолчанию порядок возрастающий, для убывающего укажите `desc`. Удаление записи
 также требует подтверждения.
+Например, игроков можно вывести по возрасту командой `select from Players order by age`.
 
 ### Общие команды
 
@@ -47,4 +48,4 @@ exit
 
 ## Демонстрация
 
-[![Демонстрация работы базы данных](https://asciinema.org/a/Q5FgswVcBGOO4JFP.svg)](https://asciinema.org/a/Q5FgswVcBGOO4JFP)
+[![Демонстрация работы базы данных](https://asciinema.org/a/XlhXTTwhMquDFlub.svg)](https://asciinema.org/a/XlhXTTwhMquDFlub)
