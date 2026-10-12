@@ -1,16 +1,19 @@
 [project]
 name = "primitive-db"
 version = "0.1.0"
-description = "Add your description here"
+description = "Примитивная база данных с интерфейсом командной строки"
 readme = "README.md"
 authors = [
     { name = "Skolkoff", email = "Skolkoff.mart@yandex.ru" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "prettytable>=3.16.0",
+    "prompt>=0.4.1",
+]
 
 [project.scripts]
-project = "primitive_db.main:main"
+database = "primitive_db.main:main"
 
 [build-system]
 requires = ["uv_build>=0.13.0,<0.14.0"]

@@ -7,3 +7,10 @@ __pycache__/
 .DS_Store
 data/
 db_meta.json
+.venv/
+dist/
+__pycache__/
+*.egg-info/
+db_meta.json
+data/
+.ruff_cache/
